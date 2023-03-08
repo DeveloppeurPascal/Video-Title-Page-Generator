@@ -8,6 +8,16 @@ It can be used to generate images for titling videos or slides for presentations
 
 This code repository contains a project developed in Object Pascal language under Delphi. You don't know what Delphi is and where to download it ? You'll learn more [on this web site](https://delphi-resources.developpeur-pascal.fr/).
 
+## Generated sample pictures
+
+![sample 1](images/exemple-20220829-01.jpg)
+
+![sample 2](images/exemple-20220829-02.jpg)
+
+![sample 3](images/exemple-20220829-03.jpg)
+
+![sample 4](images/exemple-20220829-04.jpg)
+
 ## Install
 
 To download this project you better should use "git" command but you also can download a ZIP from [its GitHub repository](https://github.com/DeveloppeurPascal/Video-Title-Page-Generator).

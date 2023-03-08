@@ -8,6 +8,16 @@ Il peut servir pour générer des images de titrage de vidéos ou de slides pour
 
 Ce dépôt de code contient un projet développé en langage Pascal Objet sous Delphi. Vous ne savez pas ce qu'est Dephi ni où le télécharger ? Vous en saurez plus [sur ce site web](https://delphi-resources.developpeur-pascal.fr/).
 
+## Exemple d'images générées
+
+![exemple 1](images/exemple-20220829-01.jpg)
+
+![exemple 2](images/exemple-20220829-02.jpg)
+
+![exemple 3](images/exemple-20220829-03.jpg)
+
+![exemple 4](images/exemple-20220829-04.jpg)
+
 ## Installation
 
 Pour télécharger ce projet il est recommandé de passer par "git" mais vous pouvez aussi télécharger un ZIP directement depuis [son dépôt GitHub](https://github.com/DeveloppeurPascal/Video-Title-Page-Generator).
