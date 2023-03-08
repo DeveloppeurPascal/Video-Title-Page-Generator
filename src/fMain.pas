@@ -118,7 +118,6 @@ begin
   if edtExportFolderPath.Text.IsEmpty then
     edtExportFolderPathChange(edtExportFolderPath);
 
-  // TODO : modifier chemin de stockage des paramètres en DEBUG et RELEASE
   TParams.setValue('Fonte', cbFontList.ItemIndex);
   TParams.setValue('Textes', edtTitleFilePath.Text);
   TParams.setValue('Background', edtBackgroundImageFilePath.Text);
@@ -154,14 +153,6 @@ begin
 
   InitFontList;
 
-{$IFDEF DEBUG}
-  edtTitleFilePath.Text :=
-    'C:\Users\olfso\Documents\Embarcadero\Studio\Projets\VideoTitlePageGenerator\sample-files\ex3.txt';
-  edtBackgroundImageFilePath.Text :=
-    'C:\Users\olfso\Documents\Embarcadero\Studio\Projets\VideoTitlePageGenerator\sample-files\AdobeStock_106404758-1920x1080.jpg';
-  edtExportFolderPath.Text :=
-    'C:\Users\olfso\Documents\Embarcadero\Studio\Projets\VideoTitlePageGenerator\sample-files\temp';
-{$ENDIF}
   cbFontList.ItemIndex := TParams.getValue('Fonte', 0);
   edtTitleFilePath.Text := TParams.getValue('Textes', edtTitleFilePath.Text);
   edtBackgroundImageFilePath.Text := TParams.getValue('Background',
@@ -487,5 +478,17 @@ procedure TfrmMain.OlfAboutDialog1URLClick(const AURL: string);
 begin
   url_Open_In_Browser(AURL);
 end;
+
+initialization
+
+{$IFDEF DEBUG}
+  ReportMemoryLeaksOnShutdown := true;
+
+TParams.setFolderName(tpath.combine(tpath.combine(tpath.GetDocumentsPath,
+  'OlfSoftware-debug'), 'VideoTitlePageGenerator-debug'));
+{$ELSE}
+  TParams.setFolderName(tpath.combine(tpath.combine(tpath.GetHomePath,
+  'OlfSoftware'), 'VideoTitlePageGenerator'));
+{$ENDIF}
 
 end.
