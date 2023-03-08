@@ -42,7 +42,10 @@ uses
   udmAdobeStock_442549583 in 'X:\fontes-a-convertir-a-delphi\AdobeStock_442549583\udmAdobeStock_442549583.pas' {dmAdobeStock_442549583: TDataModule},
   udmAdobeStock_441972263 in 'X:\fontes-a-convertir-a-delphi\AdobeStock_441972263\udmAdobeStock_441972263.pas' {dmAdobeStock_441972263: TDataModule},
   udmAdobeStock_440583506 in 'X:\fontes-a-convertir-a-delphi\AdobeStock_440583506\udmAdobeStock_440583506.pas' {dmAdobeStock_440583506: TDataModule},
-  udmAdobeStock_430117883 in 'X:\fontes-a-convertir-a-delphi\AdobeStock_430117883\udmAdobeStock_430117883.pas' {dmAdobeStock_430117883: TDataModule};
+  udmAdobeStock_430117883 in 'X:\fontes-a-convertir-a-delphi\AdobeStock_430117883\udmAdobeStock_430117883.pas' {dmAdobeStock_430117883: TDataModule},
+  Olf.FMX.AboutDialog in '..\lib-externes\AboutDialog-Delphi-Component\sources\Olf.FMX.AboutDialog.pas',
+  Olf.FMX.AboutDialogForm in '..\lib-externes\AboutDialog-Delphi-Component\sources\Olf.FMX.AboutDialogForm.pas' {OlfAboutDialogForm},
+  u_urlOpen in '..\lib-externes\librairies\u_urlOpen.pas';
 
 {$R *.res}
 

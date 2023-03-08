@@ -8,7 +8,7 @@ uses
   FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.Memo.Types,
   FMX.ScrollBox, FMX.Memo, FMX.ListBox, FMX.Controls.Presentation, FMX.Edit,
   System.ImageList, FMX.ImgList, FMX.StdCtrls, FMX.Objects,
-  Olf.FMX.TextImageFrame, FMX.Layouts;
+  Olf.FMX.TextImageFrame, FMX.Layouts, FMX.Menus, Olf.FMX.AboutDialog;
 
 type
   TfrmMain = class(TForm)
@@ -19,12 +19,21 @@ type
     mmoTitleList: TMemo;
     cbFontListPreview: TGlyph;
     btnExportTitlePages: TButton;
+    MainMenu1: TMainMenu;
+    OlfAboutDialog1: TOlfAboutDialog;
+    mnufile: TMenuItem;
+    mnuHelp: TMenuItem;
+    mnuQuit: TMenuItem;
+    mnuAbout: TMenuItem;
     procedure FormCreate(Sender: TObject);
     procedure cbFontListChange(Sender: TObject);
     procedure edtTitleFilePathChange(Sender: TObject);
     procedure edtBackgroundImageFilePathChange(Sender: TObject);
     procedure edtExportFolderPathChange(Sender: TObject);
     procedure btnExportTitlePagesClick(Sender: TObject);
+    procedure mnuQuitClick(Sender: TObject);
+    procedure mnuAboutClick(Sender: TObject);
+    procedure OlfAboutDialog1URLClick(const AURL: string);
   private
     { Déclarations privées }
     procedure CreationDifferee;
@@ -50,7 +59,7 @@ implementation
 {$R *.fmx}
 
 uses
-  System.IOUtils, Olf.RTL.Params, System.Math;
+  System.IOUtils, Olf.RTL.Params, System.Math, u_urlOpen;
 
 procedure TfrmMain.AjoutTexte(Texte: string; Font: TCustomImageList; L: TLayout;
   Y: single);
@@ -226,6 +235,9 @@ end;
 
 procedure TfrmMain.FormCreate(Sender: TObject);
 begin
+{$IF Defined(MACOS)}
+  mnufile.Visible := false; // élimine Fichier/Quitter déjà pris en charge
+{$ENDIF}
   tthread.ForceQueue(nil,
     procedure
     begin
@@ -315,9 +327,9 @@ begin
             try
               // ShowMessage(bmp.Width.ToString + 'x' + bmp.height.ToString + 'x' +
               // bmp.BitmapScale.ToString);
-//              if (bmp.BitmapScale <> 1) then
-//                bmp.Resize(trunc(bmp.Width / bmp.BitmapScale),
-//                  trunc(bmp.height / bmp.BitmapScale));
+              // if (bmp.BitmapScale <> 1) then
+              // bmp.Resize(trunc(bmp.Width / bmp.BitmapScale),
+              // trunc(bmp.height / bmp.BitmapScale));
               bmp.SaveToFile(tpath.combine(ExportFolderPath, EnNomDeFichier(txt,
                 i) + '.jpg'));
             finally
@@ -459,6 +471,21 @@ begin
       end;
   if cbFontList.Items.Count > 0 then
     cbFontList.ItemIndex := 0;
+end;
+
+procedure TfrmMain.mnuAboutClick(Sender: TObject);
+begin
+  OlfAboutDialog1.Execute;
+end;
+
+procedure TfrmMain.mnuQuitClick(Sender: TObject);
+begin
+  close;
+end;
+
+procedure TfrmMain.OlfAboutDialog1URLClick(const AURL: string);
+begin
+  url_Open_In_Browser(AURL);
 end;
 
 end.
