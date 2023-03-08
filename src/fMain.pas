@@ -258,8 +258,14 @@ begin
       if not titles[i].IsEmpty then
       begin
         img.Bitmap.LoadFromFile(BackgroundImageFilePath);
-        img.Width := img.Bitmap.Width;
-        img.height := img.Bitmap.height;
+        // ShowMessage(img.Width.ToString + 'x' + img.height.ToString + ' ' +
+        // img.Bitmap.Width.ToString + 'x' + img.Bitmap.height.ToString + 'x' +
+        // img.Bitmap.BitmapScale.ToString);
+        img.Width := img.Bitmap.Width / img.Bitmap.bitmapscale;
+        img.height := img.Bitmap.height / img.Bitmap.bitmapscale;
+        // ShowMessage(img.Width.ToString + 'x' + img.Height.ToString + ' ' +
+        // img.Bitmap.Width.ToString + 'x' + img.Bitmap.height.ToString + 'x' +
+        // img.Bitmap.bitmapscale.ToString);
         ZoneTexte := TLayout.Create(self);
         try
           ZoneTexte.Parent := img;
@@ -302,8 +308,16 @@ begin
             txt := FiltreTexte(titles[i]);
             AjoutTexte(txt, Font, L, 0);
             // Capture image
+            // ShowMessage(img.Width.ToString + 'x' + img.Width.ToString + ' ' +
+            // img.Bitmap.Width.ToString + 'x' + img.Bitmap.height.ToString + 'x'
+            // + img.Bitmap.bitmapscale.ToString);
             bmp := img.MakeScreenshot;
             try
+              // ShowMessage(bmp.Width.ToString + 'x' + bmp.height.ToString + 'x' +
+              // bmp.BitmapScale.ToString);
+//              if (bmp.BitmapScale <> 1) then
+//                bmp.Resize(trunc(bmp.Width / bmp.BitmapScale),
+//                  trunc(bmp.height / bmp.BitmapScale));
               bmp.SaveToFile(tpath.combine(ExportFolderPath, EnNomDeFichier(txt,
                 i) + '.jpg'));
             finally
