@@ -37,7 +37,6 @@ uses
   udmAdobeStock_487544607 in 'Y:\fontes-a-convertir-a-delphi\AdobeStock_487544607\udmAdobeStock_487544607.pas' {dmAdobeStock_487544607: TDataModule},
   udmAdobeStock_486513768 in 'Y:\fontes-a-convertir-a-delphi\AdobeStock_486513768\udmAdobeStock_486513768.pas' {dmAdobeStock_486513768: TDataModule},
   udmAdobeStock_473515870 in 'Y:\fontes-a-convertir-a-delphi\AdobeStock_473515870\udmAdobeStock_473515870.pas' {dmAdobeStock_473515870: TDataModule},
-  udmAdobeStock_472041748 in 'Y:\fontes-a-convertir-a-delphi\AdobeStock_472041748\udmAdobeStock_472041748.pas' {dmAdobeStock_472041748: TDataModule},
   udmAdobeStock_444672949 in 'Y:\fontes-a-convertir-a-delphi\AdobeStock_444672949\udmAdobeStock_444672949.pas' {dmAdobeStock_444672949: TDataModule},
   udmAdobeStock_442549583 in 'Y:\fontes-a-convertir-a-delphi\AdobeStock_442549583\udmAdobeStock_442549583.pas' {dmAdobeStock_442549583: TDataModule},
   udmAdobeStock_441972263 in 'Y:\fontes-a-convertir-a-delphi\AdobeStock_441972263\udmAdobeStock_441972263.pas' {dmAdobeStock_441972263: TDataModule},
@@ -45,7 +44,38 @@ uses
   udmAdobeStock_430117883 in 'Y:\fontes-a-convertir-a-delphi\AdobeStock_430117883\udmAdobeStock_430117883.pas' {dmAdobeStock_430117883: TDataModule},
   Olf.FMX.AboutDialog in '..\lib-externes\AboutDialog-Delphi-Component\sources\Olf.FMX.AboutDialog.pas',
   Olf.FMX.AboutDialogForm in '..\lib-externes\AboutDialog-Delphi-Component\sources\Olf.FMX.AboutDialogForm.pas' {OlfAboutDialogForm},
-  u_urlOpen in '..\lib-externes\librairies\u_urlOpen.pas';
+  u_urlOpen in '..\lib-externes\librairies\u_urlOpen.pas',
+  udmAdobeStock_47191065bleu_gris in 'Y:\fontes-a-convertir-a-delphi\AdobeStock_47191065-bleu_gris\udmAdobeStock_47191065bleu_gris.pas' {dmAdobeStock_47191065bleu_gris: TDataModule},
+  udmAdobeStock_47191065orange_gris in 'Y:\fontes-a-convertir-a-delphi\AdobeStock_47191065-orange_gris\udmAdobeStock_47191065orange_gris.pas' {dmAdobeStock_47191065orange_gris: TDataModule},
+  udmAdobeStock_47191065orange_noir in 'Y:\fontes-a-convertir-a-delphi\AdobeStock_47191065-orange_noir\udmAdobeStock_47191065orange_noir.pas' {dmAdobeStock_47191065orange_noir: TDataModule},
+  udmAdobeStock_47191065vert_gris in 'Y:\fontes-a-convertir-a-delphi\AdobeStock_47191065-vert_gris\udmAdobeStock_47191065vert_gris.pas' {dmAdobeStock_47191065vert_gris: TDataModule},
+  udmAdobeStock_60051145_60102985 in 'Y:\fontes-a-convertir-a-delphi\AdobeStock_60051145_60102985\udmAdobeStock_60051145_60102985.pas' {dmAdobeStock_60051145_60102985: TDataModule},
+  udmAdobeStock_72392519 in 'Y:\fontes-a-convertir-a-delphi\AdobeStock_72392519\udmAdobeStock_72392519.pas' {dmAdobeStock_72392519: TDataModule},
+  udmAdobeStock_79610991 in 'Y:\fontes-a-convertir-a-delphi\AdobeStock_79610991\udmAdobeStock_79610991.pas' {dmAdobeStock_79610991: TDataModule},
+  udmAdobeStock_101337396 in 'Y:\fontes-a-convertir-a-delphi\AdobeStock_101337396\udmAdobeStock_101337396.pas' {dmAdobeStock_101337396: TDataModule},
+  udmAdobeStock_102804804 in 'Y:\fontes-a-convertir-a-delphi\AdobeStock_102804804\udmAdobeStock_102804804.pas' {dmAdobeStock_102804804: TDataModule},
+  udmAdobeStock_151096081 in 'Y:\fontes-a-convertir-a-delphi\AdobeStock_151096081\udmAdobeStock_151096081.pas' {dmAdobeStock_151096081: TDataModule},
+  udmAdobeStock_159079012 in 'Y:\fontes-a-convertir-a-delphi\AdobeStock_159079012\udmAdobeStock_159079012.pas' {dmAdobeStock_159079012: TDataModule},
+  udmAdobeStock_181197116 in 'Y:\fontes-a-convertir-a-delphi\AdobeStock_181197116\udmAdobeStock_181197116.pas' {dmAdobeStock_181197116: TDataModule},
+  udmAdobeStock_212889779 in 'Y:\fontes-a-convertir-a-delphi\AdobeStock_212889779\udmAdobeStock_212889779.pas' {dmAdobeStock_212889779: TDataModule},
+  udmAdobeStock_224288141 in 'Y:\fontes-a-convertir-a-delphi\AdobeStock_224288141\udmAdobeStock_224288141.pas' {dmAdobeStock_224288141: TDataModule},
+  udmAdobeStock_238191796 in 'Y:\fontes-a-convertir-a-delphi\AdobeStock_238191796\udmAdobeStock_238191796.pas' {dmAdobeStock_238191796: TDataModule},
+  udmAdobeStock_268229970 in 'Y:\fontes-a-convertir-a-delphi\AdobeStock_268229970\udmAdobeStock_268229970.pas' {dmAdobeStock_268229970: TDataModule},
+  udmAdobeStock_268305761 in 'Y:\fontes-a-convertir-a-delphi\AdobeStock_268305761\udmAdobeStock_268305761.pas' {dmAdobeStock_268305761: TDataModule},
+  udmAdobeStock_268788522 in 'Y:\fontes-a-convertir-a-delphi\AdobeStock_268788522\udmAdobeStock_268788522.pas' {dmAdobeStock_268788522: TDataModule},
+  udmAdobeStock_296550198 in 'Y:\fontes-a-convertir-a-delphi\AdobeStock_296550198\udmAdobeStock_296550198.pas' {dmAdobeStock_296550198: TDataModule},
+  udmAdobeStock_303523361 in 'Y:\fontes-a-convertir-a-delphi\AdobeStock_303523361\udmAdobeStock_303523361.pas' {dmAdobeStock_303523361: TDataModule},
+  udmAdobeStock_308188160 in 'Y:\fontes-a-convertir-a-delphi\AdobeStock_308188160\udmAdobeStock_308188160.pas' {dmAdobeStock_308188160: TDataModule},
+  udmAdobeStock_308188163 in 'Y:\fontes-a-convertir-a-delphi\AdobeStock_308188163\udmAdobeStock_308188163.pas' {dmAdobeStock_308188163: TDataModule},
+  udmAdobeStock_320610939 in 'Y:\fontes-a-convertir-a-delphi\AdobeStock_320610939\udmAdobeStock_320610939.pas' {dmAdobeStock_320610939: TDataModule},
+  udmAdobeStock_326331019 in 'Y:\fontes-a-convertir-a-delphi\AdobeStock_326331019\udmAdobeStock_326331019.pas' {dmAdobeStock_326331019: TDataModule},
+  udmAdobeStock_386228735 in 'Y:\fontes-a-convertir-a-delphi\AdobeStock_386228735\udmAdobeStock_386228735.pas' {dmAdobeStock_386228735: TDataModule},
+  udmAdobeStock_425420228 in 'Y:\fontes-a-convertir-a-delphi\AdobeStock_425420228\udmAdobeStock_425420228.pas' {dmAdobeStock_425420228: TDataModule},
+  udmAdobeStock_460990606 in 'Y:\fontes-a-convertir-a-delphi\AdobeStock_460990606\udmAdobeStock_460990606.pas' {dmAdobeStock_460990606: TDataModule},
+  udmAdobeStock_467305414 in 'Y:\fontes-a-convertir-a-delphi\AdobeStock_467305414\udmAdobeStock_467305414.pas' {dmAdobeStock_467305414: TDataModule},
+  udmAdobeStock_467305422 in 'Y:\fontes-a-convertir-a-delphi\AdobeStock_467305422\udmAdobeStock_467305422.pas' {dmAdobeStock_467305422: TDataModule},
+  udmAdobeStock_470511965 in 'Y:\fontes-a-convertir-a-delphi\AdobeStock_470511965\udmAdobeStock_470511965.pas' {dmAdobeStock_470511965: TDataModule},
+  udmAdobeStock_472041748 in 'Y:\fontes-a-convertir-a-delphi\AdobeStock_472041748\udmAdobeStock_472041748.pas' {dmAdobeStock_472041748: TDataModule};
 
 {$R *.res}
 
@@ -90,6 +120,37 @@ begin
   Application.CreateForm(TdmAdobeStock_441972263, dmAdobeStock_441972263);
   Application.CreateForm(TdmAdobeStock_440583506, dmAdobeStock_440583506);
   Application.CreateForm(TdmAdobeStock_430117883, dmAdobeStock_430117883);
+  Application.CreateForm(TdmAdobeStock_47191065bleu_gris, dmAdobeStock_47191065bleu_gris);
+  Application.CreateForm(TdmAdobeStock_47191065orange_gris, dmAdobeStock_47191065orange_gris);
+  Application.CreateForm(TdmAdobeStock_47191065orange_noir, dmAdobeStock_47191065orange_noir);
+  Application.CreateForm(TdmAdobeStock_47191065vert_gris, dmAdobeStock_47191065vert_gris);
+  Application.CreateForm(TdmAdobeStock_60051145_60102985, dmAdobeStock_60051145_60102985);
+  Application.CreateForm(TdmAdobeStock_72392519, dmAdobeStock_72392519);
+  Application.CreateForm(TdmAdobeStock_79610991, dmAdobeStock_79610991);
+  Application.CreateForm(TdmAdobeStock_101337396, dmAdobeStock_101337396);
+  Application.CreateForm(TdmAdobeStock_102804804, dmAdobeStock_102804804);
+  Application.CreateForm(TdmAdobeStock_151096081, dmAdobeStock_151096081);
+  Application.CreateForm(TdmAdobeStock_159079012, dmAdobeStock_159079012);
+  Application.CreateForm(TdmAdobeStock_181197116, dmAdobeStock_181197116);
+  Application.CreateForm(TdmAdobeStock_212889779, dmAdobeStock_212889779);
+  Application.CreateForm(TdmAdobeStock_224288141, dmAdobeStock_224288141);
+  Application.CreateForm(TdmAdobeStock_238191796, dmAdobeStock_238191796);
+  Application.CreateForm(TdmAdobeStock_268229970, dmAdobeStock_268229970);
+  Application.CreateForm(TdmAdobeStock_268305761, dmAdobeStock_268305761);
+  Application.CreateForm(TdmAdobeStock_268788522, dmAdobeStock_268788522);
+  Application.CreateForm(TdmAdobeStock_296550198, dmAdobeStock_296550198);
+  Application.CreateForm(TdmAdobeStock_303523361, dmAdobeStock_303523361);
+  Application.CreateForm(TdmAdobeStock_308188160, dmAdobeStock_308188160);
+  Application.CreateForm(TdmAdobeStock_308188163, dmAdobeStock_308188163);
+  Application.CreateForm(TdmAdobeStock_320610939, dmAdobeStock_320610939);
+  Application.CreateForm(TdmAdobeStock_326331019, dmAdobeStock_326331019);
+  Application.CreateForm(TdmAdobeStock_386228735, dmAdobeStock_386228735);
+  Application.CreateForm(TdmAdobeStock_425420228, dmAdobeStock_425420228);
+  Application.CreateForm(TdmAdobeStock_460990606, dmAdobeStock_460990606);
+  Application.CreateForm(TdmAdobeStock_467305414, dmAdobeStock_467305414);
+  Application.CreateForm(TdmAdobeStock_467305422, dmAdobeStock_467305422);
+  Application.CreateForm(TdmAdobeStock_470511965, dmAdobeStock_470511965);
+  Application.CreateForm(TdmAdobeStock_472041748, dmAdobeStock_472041748);
   Application.Run;
 
 end.

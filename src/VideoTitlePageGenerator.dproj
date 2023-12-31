@@ -5,7 +5,7 @@
         <FrameworkType>FMX</FrameworkType>
         <Base>True</Base>
         <Config Condition="'$(Config)'==''">Debug</Config>
-        <Platform Condition="'$(Platform)'==''">OSXARM64</Platform>
+        <Platform Condition="'$(Platform)'==''">Win32</Platform>
         <TargetedPlatforms>135171</TargetedPlatforms>
         <AppType>Application</AppType>
         <MainSource>VideoTitlePageGenerator.dpr</MainSource>
@@ -486,10 +486,6 @@
             <Form>dmAdobeStock_473515870</Form>
             <DesignClass>TDataModule</DesignClass>
         </DCCReference>
-        <DCCReference Include="Y:\fontes-a-convertir-a-delphi\AdobeStock_472041748\udmAdobeStock_472041748.pas">
-            <Form>dmAdobeStock_472041748</Form>
-            <DesignClass>TDataModule</DesignClass>
-        </DCCReference>
         <DCCReference Include="Y:\fontes-a-convertir-a-delphi\AdobeStock_444672949\udmAdobeStock_444672949.pas">
             <Form>dmAdobeStock_444672949</Form>
             <DesignClass>TDataModule</DesignClass>
@@ -516,6 +512,161 @@
             <FormType>fmx</FormType>
         </DCCReference>
         <DCCReference Include="..\lib-externes\librairies\u_urlOpen.pas"/>
+        <DCCReference Include="Y:\fontes-a-convertir-a-delphi\AdobeStock_47191065-bleu_gris\udmAdobeStock_47191065bleu_gris.pas">
+            <Form>dmAdobeStock_47191065bleu_gris</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="Y:\fontes-a-convertir-a-delphi\AdobeStock_47191065-orange_gris\udmAdobeStock_47191065orange_gris.pas">
+            <Form>dmAdobeStock_47191065orange_gris</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="Y:\fontes-a-convertir-a-delphi\AdobeStock_47191065-orange_noir\udmAdobeStock_47191065orange_noir.pas">
+            <Form>dmAdobeStock_47191065orange_noir</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="Y:\fontes-a-convertir-a-delphi\AdobeStock_47191065-vert_gris\udmAdobeStock_47191065vert_gris.pas">
+            <Form>dmAdobeStock_47191065vert_gris</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="Y:\fontes-a-convertir-a-delphi\AdobeStock_60051145_60102985\udmAdobeStock_60051145_60102985.pas">
+            <Form>dmAdobeStock_60051145_60102985</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="Y:\fontes-a-convertir-a-delphi\AdobeStock_72392519\udmAdobeStock_72392519.pas">
+            <Form>dmAdobeStock_72392519</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="Y:\fontes-a-convertir-a-delphi\AdobeStock_79610991\udmAdobeStock_79610991.pas">
+            <Form>dmAdobeStock_79610991</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="Y:\fontes-a-convertir-a-delphi\AdobeStock_101337396\udmAdobeStock_101337396.pas">
+            <Form>dmAdobeStock_101337396</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="Y:\fontes-a-convertir-a-delphi\AdobeStock_102804804\udmAdobeStock_102804804.pas">
+            <Form>dmAdobeStock_102804804</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="Y:\fontes-a-convertir-a-delphi\AdobeStock_151096081\udmAdobeStock_151096081.pas">
+            <Form>dmAdobeStock_151096081</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="Y:\fontes-a-convertir-a-delphi\AdobeStock_159079012\udmAdobeStock_159079012.pas">
+            <Form>dmAdobeStock_159079012</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="Y:\fontes-a-convertir-a-delphi\AdobeStock_181197116\udmAdobeStock_181197116.pas">
+            <Form>dmAdobeStock_181197116</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="Y:\fontes-a-convertir-a-delphi\AdobeStock_212889779\udmAdobeStock_212889779.pas">
+            <Form>dmAdobeStock_212889779</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="Y:\fontes-a-convertir-a-delphi\AdobeStock_224288141\udmAdobeStock_224288141.pas">
+            <Form>dmAdobeStock_224288141</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="Y:\fontes-a-convertir-a-delphi\AdobeStock_238191796\udmAdobeStock_238191796.pas">
+            <Form>dmAdobeStock_238191796</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="Y:\fontes-a-convertir-a-delphi\AdobeStock_268229970\udmAdobeStock_268229970.pas">
+            <Form>dmAdobeStock_268229970</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="Y:\fontes-a-convertir-a-delphi\AdobeStock_268305761\udmAdobeStock_268305761.pas">
+            <Form>dmAdobeStock_268305761</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="Y:\fontes-a-convertir-a-delphi\AdobeStock_268788522\udmAdobeStock_268788522.pas">
+            <Form>dmAdobeStock_268788522</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="Y:\fontes-a-convertir-a-delphi\AdobeStock_296550198\udmAdobeStock_296550198.pas">
+            <Form>dmAdobeStock_296550198</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="Y:\fontes-a-convertir-a-delphi\AdobeStock_303523361\udmAdobeStock_303523361.pas">
+            <Form>dmAdobeStock_303523361</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="Y:\fontes-a-convertir-a-delphi\AdobeStock_308188160\udmAdobeStock_308188160.pas">
+            <Form>dmAdobeStock_308188160</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="Y:\fontes-a-convertir-a-delphi\AdobeStock_308188163\udmAdobeStock_308188163.pas">
+            <Form>dmAdobeStock_308188163</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="Y:\fontes-a-convertir-a-delphi\AdobeStock_320610939\udmAdobeStock_320610939.pas">
+            <Form>dmAdobeStock_320610939</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="Y:\fontes-a-convertir-a-delphi\AdobeStock_326331019\udmAdobeStock_326331019.pas">
+            <Form>dmAdobeStock_326331019</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="Y:\fontes-a-convertir-a-delphi\AdobeStock_386228735\udmAdobeStock_386228735.pas">
+            <Form>dmAdobeStock_386228735</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="Y:\fontes-a-convertir-a-delphi\AdobeStock_425420228\udmAdobeStock_425420228.pas">
+            <Form>dmAdobeStock_425420228</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="Y:\fontes-a-convertir-a-delphi\AdobeStock_460990606\udmAdobeStock_460990606.pas">
+            <Form>dmAdobeStock_460990606</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="Y:\fontes-a-convertir-a-delphi\AdobeStock_467305414\udmAdobeStock_467305414.pas">
+            <Form>dmAdobeStock_467305414</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="Y:\fontes-a-convertir-a-delphi\AdobeStock_467305422\udmAdobeStock_467305422.pas">
+            <Form>dmAdobeStock_467305422</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="Y:\fontes-a-convertir-a-delphi\AdobeStock_470511965\udmAdobeStock_470511965.pas">
+            <Form>dmAdobeStock_470511965</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="Y:\fontes-a-convertir-a-delphi\AdobeStock_472041748\udmAdobeStock_472041748.pas">
+            <Form>dmAdobeStock_472041748</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>
@@ -583,6 +734,12 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
+                <DeployFile LocalName="OSX64\Debug\VideoTitlePageGenerator.dSYM" Configuration="Debug" Class="ProjectOSXDebug">
+                    <Platform Name="OSX64">
+                        <RemoteName>VideoTitlePageGenerator</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="OSX64\Debug\VideoTitlePageGenerator.entitlements" Configuration="Debug" Class="ProjectOSXEntitlements">
                     <Platform Name="OSX64">
                         <Overwrite>true</Overwrite>
@@ -603,6 +760,12 @@
                 <DeployFile LocalName="OSX64\Release\VideoTitlePageGenerator.entitlements" Configuration="Release" Class="ProjectOSXEntitlements"/>
                 <DeployFile LocalName="OSX64\Release\VideoTitlePageGenerator.info.plist" Configuration="Release" Class="ProjectOSXInfoPList"/>
                 <DeployFile LocalName="OSX64\Release\VideoTitlePageGenerator" Configuration="Release" Class="ProjectOutput"/>
+                <DeployFile LocalName="OSXARM64\Debug\VideoTitlePageGenerator.dSYM" Configuration="Debug" Class="ProjectOSXDebug">
+                    <Platform Name="OSXARM64">
+                        <RemoteName>VideoTitlePageGenerator</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="OSXARM64\Debug\VideoTitlePageGenerator.entitlements" Configuration="Debug" Class="ProjectOSXEntitlements">
                     <Platform Name="OSXARM64">
                         <Overwrite>true</Overwrite>
@@ -638,6 +801,12 @@
                     </Platform>
                 </DeployFile>
                 <DeployFile LocalName="Win32\Debug\VideoTitlePageGenerator.exe" Configuration="Debug" Class="ProjectOutput"/>
+                <DeployFile LocalName="Win32\Debug\VideoTitlePageGenerator.exe" Configuration="Debug" Class="ProjectOutput">
+                    <Platform Name="Win32">
+                        <RemoteName>VideoTitlePageGenerator.exe</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="Win32\Release\AppxManifest.xml" Configuration="Release" Class="ProjectUWPManifest"/>
                 <DeployFile LocalName="Win32\Release\VideoTitlePageGenerator.exe" Configuration="Release" Class="ProjectOutput"/>
                 <DeployFile LocalName="Win64\Release\AppxManifest.xml" Configuration="Release" Class="ProjectUWPManifest"/>
