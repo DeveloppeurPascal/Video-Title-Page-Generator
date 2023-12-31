@@ -109,8 +109,8 @@ procedure TfrmMain.btnExportTitlePagesClick(Sender: TObject);
 begin
   if (cbFontList.ItemIndex < 0) then
     raise exception.Create('Choose font before processing !');
-  if edtTitleFilePath.Text.IsEmpty then
-    edtTitleFilePathChange(edtTitleFilePath);
+  // if edtTitleFilePath.Text.IsEmpty then
+  // edtTitleFilePathChange(edtTitleFilePath);
   if (mmoTitleList.Lines.Count < 1) then
     raise exception.Create('No video title in the list.');
   if edtBackgroundImageFilePath.Text.IsEmpty then
@@ -274,7 +274,7 @@ begin
           ZoneTexte.Parent := img;
           if (false) then
           begin
-{$REGION en haut de page }
+{$REGION 'en haut de page' }
             // zone d'affichage du tete en haut d'écran
             ZoneTexte.Align := talignlayout.top;
             // limitée à 400 pixels de haut
@@ -283,7 +283,7 @@ begin
           end;
           if (false) then
           begin
-{$REGION en bas de page }
+{$REGION 'en bas de page' }
             // zone d'affichage du tete en bas d'écran
             ZoneTexte.Align := talignlayout.bottom;
             // limitée à 400 pixels de haut
@@ -292,7 +292,7 @@ begin
           end;
           if (true) then
           begin
-{$REGION au centre de la page }
+{$REGION 'au centre de la page' }
             // zone d'affichage sur tout le background
             ZoneTexte.Align := talignlayout.VertCenter;
             // limitée à 98% de la hauteur du background
