@@ -47,6 +47,8 @@ type
     function FiltreTexte(Texte: string): string;
     procedure AjoutTexte(Texte: string; Font: TCustomImageList; L: TLayout;
       Y: single);
+  protected
+    procedure SetFormTitle;
   public
     { Déclarations publiques }
   end;
@@ -235,6 +237,8 @@ begin
 {$IF Defined(MACOS)}
   mnufile.Visible := false; // élimine Fichier/Quitter déjà pris en charge
 {$ENDIF}
+  SetFormTitle;
+
   tthread.ForceQueue(nil,
     procedure
     begin
@@ -483,6 +487,16 @@ end;
 procedure TfrmMain.OlfAboutDialog1URLClick(const AURL: string);
 begin
   url_Open_In_Browser(AURL);
+end;
+
+procedure TfrmMain.SetFormTitle;
+begin
+{$IFDEF DEBUG}
+  caption := '[DEBUG] ' + OlfAboutDialog1.Titre + ' v' +
+    OlfAboutDialog1.VersionNumero;
+{$ELSE}
+  caption := OlfAboutDialog1.Titre + ' v' + OlfAboutDialog1.VersionNumero;
+{$ENDIF}
 end;
 
 initialization
