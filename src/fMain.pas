@@ -109,8 +109,6 @@ procedure TfrmMain.btnExportTitlePagesClick(Sender: TObject);
 begin
   if (cbFontList.ItemIndex < 0) then
     raise exception.Create('Choose font before processing !');
-  // if edtTitleFilePath.Text.IsEmpty then
-  // edtTitleFilePathChange(edtTitleFilePath);
   if (mmoTitleList.Lines.Count < 1) then
     raise exception.Create('No video title in the list.');
   if edtBackgroundImageFilePath.Text.IsEmpty then
@@ -118,11 +116,12 @@ begin
   if edtExportFolderPath.Text.IsEmpty then
     edtExportFolderPathChange(edtExportFolderPath);
 
-  TParams.setValue('Fonte', cbFontList.ItemIndex);
-  TParams.setValue('Textes', edtTitleFilePath.Text);
-  TParams.setValue('Background', edtBackgroundImageFilePath.Text);
-  TParams.setValue('Destination', edtExportFolderPath.Text);
-  TParams.Save;
+  tparams.setvalue('Fonte', -1); // 'fonte' is deprecated since 2023-12-31
+  tparams.setvalue('FonteName', cbFontList.selected.Text);
+  tparams.setvalue('Textes', edtTitleFilePath.Text);
+  tparams.setvalue('Background', edtBackgroundImageFilePath.Text);
+  tparams.setvalue('Destination', edtExportFolderPath.Text);
+  tparams.Save;
 
   GenerateVideoTitlePages(mmoTitleList.Lines,
     cbFontList.ListItems[cbFontList.ItemIndex].TagObject as TImageList,
@@ -148,16 +147,23 @@ begin
 end;
 
 procedure TfrmMain.CreationDifferee;
+var
+  FontName: string;
 begin
   mmoTitleList.Lines.Clear;
 
   InitFontList;
 
-  cbFontList.ItemIndex := TParams.getValue('Fonte', 0);
-  edtTitleFilePath.Text := TParams.getValue('Textes', edtTitleFilePath.Text);
-  edtBackgroundImageFilePath.Text := TParams.getValue('Background',
+  FontName := tparams.getValue('FonteName', '');
+  if (FontName.IsEmpty) then
+    cbFontList.ItemIndex := tparams.getValue('Fonte', 0)
+    // 'fonte' is deprecated since 2023-12-31
+  else
+    cbFontList.ItemIndex := cbFontList.Items.IndexOf(FontName);
+  edtTitleFilePath.Text := tparams.getValue('Textes', edtTitleFilePath.Text);
+  edtBackgroundImageFilePath.Text := tparams.getValue('Background',
     edtBackgroundImageFilePath.Text);
-  edtExportFolderPath.Text := TParams.getValue('Destination',
+  edtExportFolderPath.Text := tparams.getValue('Destination',
     edtExportFolderPath.Text);
 end;
 
@@ -484,10 +490,10 @@ initialization
 {$IFDEF DEBUG}
   ReportMemoryLeaksOnShutdown := true;
 
-TParams.setFolderName(tpath.combine(tpath.combine(tpath.GetDocumentsPath,
+tparams.setFolderName(tpath.combine(tpath.combine(tpath.GetDocumentsPath,
   'OlfSoftware-debug'), 'VideoTitlePageGenerator-debug'));
 {$ELSE}
-  TParams.setFolderName(tpath.combine(tpath.combine(tpath.GetHomePath,
+  tparams.setFolderName(tpath.combine(tpath.combine(tpath.GetHomePath,
   'OlfSoftware'), 'VideoTitlePageGenerator'));
 {$ENDIF}
 
