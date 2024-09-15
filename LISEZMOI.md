@@ -1,6 +1,6 @@
 # Video Title Page Generator
 
-[This page in english.](README.md)
+[This page in English.](README.md)
 
 Ce programme génère des images à partir d'une image de fond et un ensemble de textes  mettre en forme avec une fonte de caractères graphique.
 
@@ -17,6 +17,12 @@ Ce dépôt de code contient un projet développé en langage Pascal Objet sous D
 ![exemple 3](images/exemple-20220829-03.jpg)
 
 ![exemple 4](images/exemple-20220829-04.jpg)
+
+## Présentations et conférences
+
+### Twitch
+
+Suivez mes streams de développement de logiciels, jeux vidéo, applications mobiles et sites web sur [ma chaîne Twitch](https://www.twitch.tv/patrickpremartin) ou en rediffusion sur [Serial Streameur](https://serialstreameur.fr) la plupart du temps en français.
 
 ## Installation
 
@@ -41,7 +47,7 @@ Vous pouvez aussi cloner ce dépôt de code et participer à ses évolutions en 
 
 ## Modèle de licence double
 
-Ce projet est distribué sous licence [AGPL 3.0 ou ultérieure] (https://choosealicense.com/licenses/agpl-3.0/).
+Ce projet est distribué sous licence [AGPL 3.0 ou ultérieure](https://choosealicense.com/licenses/agpl-3.0/).
 
 Si vous voulez l'utiliser en totalité ou en partie dans vos projets mais ne voulez pas en partager les sources ou ne voulez pas distribuer votre projet sous la même licence, vous pouvez acheter le droit de l'utiliser sous la licence [Apache License 2.0](https://choosealicense.com/licenses/apache-2.0/) ou une licence dédiée ([contactez l'auteur](https://developpeur-pascal.fr/nous-contacter.php) pour discuter de vos besoins).
 
