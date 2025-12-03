@@ -2,6 +2,19 @@
 
 [Cette page en français.](LISEZMOI.md)
 
+> [!WARNING]
+> Following Microsoft's decision to merge GitHub into its AI division in the summer of 2025 and therefore to consider what we publish on it only as a source of training for its models without any compensation (apart from hosting the source codes) or to bombard us with their injunctions to use Copilot everywhere, for everything and anything, I have decided to stop maintaining the repositories here.
+>
+> Maintenance of this project has been moved to Codeberg at https://codeberg.org/OlfSoftware/Video-Title-Page-Generator
+>
+> Codeberg is a community-based hosting service located in Europe that respects developers, the license of each project, and the privacy of those who connect to it.
+
+> [!NOTE]
+> To open or work on a ticket for this project, go to https://codeberg.org/OlfSoftware/Video-Title-Page-Generator/issues
+> To make a PULL REQUEST on this project, go to https://codeberg.org/OlfSoftware/Video-Title-Page-Generator/pulls
+> For any other information or to contact me, you can also visit the project website at https://videotitlepagegenerator.olfsoftware.fr or its devlog at https://videotitlepagegenerator.olfsoftware.fr/dev-corner.html.
+> This code repository will be archived once the migration is complete and will no longer be updated on GitHub.
+
 This program generates images from a background image and a set of texts formatted with a graphic font.
 
 It can be used to generate images for titling videos or slides for presentations.
@@ -30,7 +43,7 @@ Follow my development streams of software, video games, mobile applications and 
 
 ## Source code installation
 
-To download this code repository, we recommend using "git", but you can also download a ZIP file directly from [its GitHub repository](https://github.com/DeveloppeurPascal/Video-Title-Page-Generator).
+To download this code repository, we recommend using "git", but you can also download a ZIP file directly from [its Codeberg repository](https://codeberg.org/OlfSoftware/Video-Title-Page-Generator).
 
 This project uses dependencies in the form of sub-modules. They will be absent from the ZIP file. You'll have to download them by hand.
 
@@ -43,7 +56,7 @@ I use comments in [XMLDOC](https://docwiki.embarcadero.com/RADStudio/en/XML_Docu
 
 I regularly use the [DocInsight](https://devjetsoftware.com/products/documentation-insight/) tool to enter them and check their formatting.
 
-Documentation is exported in HTML by [DocInsight](https://devjetsoftware.com/products/documentation-insight/) or [PasDoc](https://pasdoc.github.io) to the /docs folder of the repository. You can also [access it online](https://developpeurpascal.github.io/Video-Title-Page-Generator) through the hosting offered by GitHub Pages.
+Documentation is exported in HTML by [DocInsight](https://devjetsoftware.com/products/documentation-insight/) or [PasDoc](https://pasdoc.github.io) to the /docs folder of the repository. You can also [access it online](https://videotitlepagegenerator.olfsoftware.fr/dev-corner.html) on the project website.
 
 Further information (tutorials, articles, videos, FAQ, talks and links) can be found on [the project website](https://videotitlepagegenerator.olfsoftware.fr) or [the project devlog](https://developpeur-pascal.fr/video-title-page-generator.html).
 
@@ -57,7 +70,7 @@ Normally, my libraries and components should also run on at least the current ve
 
 There's no guarantee of compatibility with earlier versions, even though I try to keep my code clean and avoid using too many of the new ways of writing in it (type inference, inline var and multiline strings).
 
-If you detect any anomalies on earlier versions, please don't hesitate to [report them](https://github.com/DeveloppeurPascal/Video-Title-Page-Generator/issues) so that I can test and try to correct or provide a workaround.
+If you detect any anomalies on earlier versions, please don't hesitate to [report them](https://codeberg.org/OlfSoftware/Video-Title-Page-Generator/issues) so that I can test and try to correct or provide a workaround.
 
 ## License to use this code repository and its contents
 
@@ -76,7 +89,7 @@ The source codes of this code repository as well as any compiled version are pro
 
 ## How to ask a new feature, report a bug or a security issue ?
 
-If you want an answer from the project owner the best way to ask for a new feature or report a bug is to go to [the GitHub repository](https://github.com/DeveloppeurPascal/Video-Title-Page-Generator) and [open a new issue](https://github.com/DeveloppeurPascal/Video-Title-Page-Generator/issues).
+If you want an answer from the project owner the best way to ask for a new feature or report a bug is to go to [the Codeberg repository](https://codeberg.org/OlfSoftware/Video-Title-Page-Generator) and [open a new issue](https://codeberg.org/OlfSoftware/Video-Title-Page-Generator/issues).
 
 If you found a security issue please don't report it publicly before a patch is available. Explain the case by [sending a private message to the author](https://developpeur-pascal.fr/nous-contacter.php).
 
